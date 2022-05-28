@@ -20,6 +20,7 @@ const Map = () => {
     const [cityFound, setCityFound] = useState(INITIAL_CITY);
     const [cityDistance, setCityDistance] = useState(INITIAL_DISTANCE);
 
+    const [cityName, setCityName] = useState(null);
     const [locations, setLocations] = useState();
 
     // Function for calculating the distance
@@ -80,6 +81,7 @@ const Map = () => {
                 setCityFound(cityFound + 1);
                 setScore(score - parseInt(distance));
                 setCityDistance(distance);
+                setCityName(success.name);
                 console.log(`Your attempt to find ${success.name} is successful. Your distance from the city is about ${distance}. Found city: ${cityFound}`);
             }
 
@@ -90,6 +92,7 @@ const Map = () => {
                 console.log("City not found", distance, Math.min.apply(null, distance));
                 setScore(score - (Math.abs(Math.min.apply(null, distance))));
                 setCityDistance((Math.abs(Math.min.apply(null, distance))).toFixed());
+                setCityName(null);
                 console.log(score);
                 console.log(`Your attempt failed.`);
             }
@@ -101,6 +104,7 @@ const Map = () => {
                     setCityDistance(INITIAL_DISTANCE);
                     setScore(INITIAL_SCORE);
                     setCityFound(INITIAL_CITY);
+                    setCityName(null);
                 }
             }
         }
@@ -114,6 +118,7 @@ const Map = () => {
                     locations[0]?.cities?.map(city => <span key={city?.id}>, {city?.name} </span>)
                 }</h3>}
                 <h3>Points: {score > 0 ? score.toFixed(0) : 0}</h3>
+                <h3>City Name: {cityName}</h3>
                 <h3>Distance: {cityDistance}</h3>
                 <h3>Highest Score: {cityFound}</h3>
             </div>
