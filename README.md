@@ -1,4 +1,4 @@
-# Simple Find City in the Map Game
+# Find Cities In The Map Game
 
 [Live Website Link](https://dazzling-bubblegum-ceb81f.netlify.app/).
 
