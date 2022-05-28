@@ -32,4 +32,4 @@
 
 * User authentication can be added
 
-* As this code doesn't have much functionalities, I didn't use any components to organize this code. It can be organized in a better way later on, when more features will be added
+* As this code doesn't have much functionalities, I didn't use component structure to organize this code. Almost all the codes are placed in `Map.jsx`. It can be organized in a better way later on, when I add more features
