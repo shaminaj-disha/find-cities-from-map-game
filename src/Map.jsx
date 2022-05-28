@@ -117,10 +117,10 @@ const Map = () => {
                 {locations && <h3>Find the locations for {
                     locations[0]?.cities?.map(city => <span key={city?.id}>, {city?.name} </span>)
                 }</h3>}
-                <h3>Points: {score > 0 ? score.toFixed(0) : 0}</h3>
+                <h3>Game Points: {score > 0 ? score.toFixed(0) : 0}</h3>
                 <h3>City Name: {cityName}</h3>
                 <h3>Distance: {cityDistance}</h3>
-                <h3>Highest Score: {cityFound}</h3>
+                <h3>Your Score: {cityFound}</h3>
             </div>
 
             {/* Display Map */}

@@ -8,7 +8,7 @@
 
 * The players have to find the mentioned country. The initial score is set to 1500 points which will decrease by the the exact value of the distance in kilometers from the nearest city on mouse click.
 
-* When the distance is within 50km, it will be a successful find and the highest Score will be updated.
+* When the distance is within 50km, it will be a successful find, the city name and the highest Score will be updated.
 
 * For every click, if there is a distance, it will be reduced from the initial point.
 
