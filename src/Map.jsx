@@ -11,6 +11,7 @@ const longitude = DEFAULT_LONGITUDE;
 const INITIAL_SCORE = 1500;
 const INITIAL_CITY = 0;
 const INITIAL_DISTANCE = 0;
+
 const Map = () => {
     // Declared States
     const [mapState, setMapState] = useState(null);

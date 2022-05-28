@@ -24,10 +24,12 @@
 
 ## Improvement
 
+* The cities are shown in this map, could not find a good map api which doesn't show the cities or streets, will have to search more thoroughly
+
+* If a city is selected once, it can't be selected again. A marker can be placed there as well. But here in this project it is not fixed
+
+* The minimum distance can be shown with a path in the map
+
 * User authentication can be added
 
-* The cities are shown in this map, could'nt find a good map api which doesn't show the cities or streets, will have to search more thoroughly
-
-* If a city is selected it can't be selected again, a marker will be placed there as well.
-
-* The minimum distance can be shown with a path in the map. 
+* As this code doesn't have much functionalities, I didn't use any components to organize this code. It can be organized in a better way later on, when more features will be added
