@@ -34,4 +34,6 @@
 
 * User authentication can be added
 
+* UI design is very basic. It can be improved
+
 * As this code doesn't have much functionalities, I didn't structure components in a organized way. Almost all the codes are placed in only one component - `Map.jsx`. It can be organized in a better way later on, when I add more features
