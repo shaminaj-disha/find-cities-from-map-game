@@ -6,11 +6,11 @@
 
 * The players will see a map. The initial location is set in Europe.
 
-* The players have to find the mentioned country. The initial score is set to 1500 points which will decrease by the the exact value of the distance in kilometers from the nearest city on mouse click.
+* The players have to find the mentioned country. The initial score is set to 1500 points which will be decreased by the the exact value of the distance in kilometers from the nearest city on mouse click.
 
 * When the distance is within 50km, it will be a successful find, the city name and the highest Score will be updated.
 
-* For every click, if there is a distance, it will be reduced from the initial point.
+* For every click, if there is a distance, it will be deducted from the initial points.
 
 * The game will terminate when initial points value gets to zero.
 
