@@ -28,6 +28,8 @@
 
 * If a city is selected once, it can't be selected again. A marker can be placed there as well. But here in this project it is not fixed
 
+* Also some shapes could be drawn when the mouse is clicked to draw a circle or a polygon
+
 * The minimum distance can be shown with a path in the map
 
 * User authentication can be added
